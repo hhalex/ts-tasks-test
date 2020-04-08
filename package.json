@@ -1,0 +1,21 @@
+{
+  "name": "test-pledge",
+  "version": "1.0.0",
+  "description": "testing pledge",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c rollup.config.ts -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pledge-ts": "file:../ts-scheduling-combinators",
+    "typescript": "3.8.3",
+    "rollup": "2.2.0",
+    "rollup-plugin-typescript2": "0.26.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-serve": "1.0.1",
+    "rollup-plugin-livereload": "1.1.0"
+  }
+}
